@@ -23,7 +23,6 @@ export default [
       pluginReact,
       tseslint
     },
-
     rules: {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
@@ -33,7 +32,7 @@ export default [
     },
     settings: {
       react: {
-        version: 'detect' // Adicionado para especificar a versão do React
+        version: 'detect'
       }
     }
   },
