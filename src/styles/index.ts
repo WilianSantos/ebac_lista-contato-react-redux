@@ -14,6 +14,14 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 2.5fr 1fr;
   gap: 20px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 `
 
 export const Title = styled.h1`

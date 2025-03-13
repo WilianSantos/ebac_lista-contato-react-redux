@@ -3,6 +3,11 @@ import { Title } from '../../styles'
 
 export const Sidebar = styled.section`
   padding: 40px 20px 40px 0;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+    width: 100%;
+  }
 `
 
 export const SidebarHeader = styled.div`
